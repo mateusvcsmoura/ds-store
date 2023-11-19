@@ -65,7 +65,7 @@ function updateProductQuantity (productName) {
     productQuantitiesJSON = JSON.stringify(productQuantities);
     window.localStorage.setItem('quantitiesItems', productQuantitiesJSON);
 
-    return notificationSpan;
+    return;
 }
 
 // NOTIFICATION SPAN

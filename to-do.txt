@@ -1,0 +1,5 @@
+O que preciso fazer?
+
+Lidar com o contador de itens (notificação), ele está retornando para zero toda vez que saímos da página de um produto que atualizamos a quantidade.
+
+[function updateProductQuantity].

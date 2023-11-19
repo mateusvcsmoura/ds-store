@@ -1,0 +1,126 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 0px; border-spacing: 30px;
+}
+
+.product-price {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    background-color: #94D7F2;
+}
+
+.product-name {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    background-color: #94D7F2;
+} 
+
+button:not(.dropbtn) {
+    text-align: center;
+    background-color: black;
+    color: white;
+
+    font-size: 16px;
+    padding: 5px 25px 5px 20px;
+
+    border-radius: 10px;
+    transition: 0.45s ease-out;
+}
+
+button:not(.dropbtn):hover {
+    cursor: pointer;
+
+    color: #202020;
+    background-color: #fffafa;
+}
+
+p > a {
+    margin-top: 10px;
+}
+
+.footer {
+    margin: 15px 0;
+}
+
+/* NAV BAR */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    margin: 0.5rem 0;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #b0e6fc;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
